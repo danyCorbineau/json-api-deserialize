@@ -1,13 +1,13 @@
 import { get, set } from 'lodash';
 import { asArray } from '../../utils'
 
-import { normalize } from '../normalizer/normalizer.func';
+import { normalize } from '..';
 
 import IDocument from '../../meta/document.interface';
 import IResource from '../../meta/resource.interface';
 import IResourceIdentifier from '../../meta/resource-identifier.interface';
 import IDeserialized from '../../meta/deserialized.interface';
-import IDeserializeOptions from 'src/meta/deserialize-options.interface';
+import IDeserializeOptions from '../../meta/deserialize-options.interface';
 
 class Deserializer {
   private response: IDocument;

@@ -1,5 +1,5 @@
 import { isObject, isArray, camelCase } from 'lodash';
-import IDeserialized from "src/meta/deserialized.interface";
+import IDeserialized from "../../meta/deserialized.interface";
 
 export const normalize = (deserializedData: IDeserialized): IDeserialized => {
   const normalizeGivenObject = (object: any): void => { // eslint-disable-line

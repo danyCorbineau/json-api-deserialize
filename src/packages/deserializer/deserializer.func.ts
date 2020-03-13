@@ -1,6 +1,6 @@
-import IDocument from 'src/meta/document.interface';
+import IDocument from '../../meta/document.interface';
 import { default as Deserializer } from './deserializer.class';
-import IDeserializeOptions from 'src/meta/deserialize-options.interface';
+import IDeserializeOptions from '../../meta/deserialize-options.interface';
 
 /**
  *
